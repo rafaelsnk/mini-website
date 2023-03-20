@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h1 {
+  text-align: center;
+  color: #88100f;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+div {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+p {
+  line-height: 1.5;
+}
