@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* config globais */
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Topo */
+.container-topo {
+  width: 100vw;
+  background-color: #84e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.header-conteudo span {
+  color: #fff;
+  margin-left: 60px;
+}
+
+.header-conteudo a {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+/* main */
+
+.capa img {
+  width: 100%
+}
+
+.container-limitado {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.section-conteudo h1 {
+  text-align: center;
+}
+
+.section-conteudo h2 {
+  text-align: center;
+}
+
+.tv img {
+  margin: 0 auto;
+}
+
+.galeira {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0 auto 20px auto;
+}
+
+.galeira img {
+  width: 380px;
+  padding: 0 8px;
+  box-shadow: 10px 10px 10px #939393;
+
+}
+
+.container-rodape {
+  width: 100vw;
+  background-color: #84e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-rodape p {
+  text-align: center;
+  color: #fff;
+}
