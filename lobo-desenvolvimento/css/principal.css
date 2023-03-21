@@ -1,0 +1,21 @@
+/* config default */
+@import './global.css';
+
+/* header */
+@import './header.css';
+
+/* Introdução */
+
+@import './introducao.css';
+
+/* Experiência */
+
+@import './experiencia.css';
+
+/* Formação */
+
+@import './formacao.css';
+
+/* Footer */
+
+@import './footer.css'
