@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.tabelaHead,
+.footerTabela {
+  background-color: #2f86d6;
+}
+
+.tabelaHead p,
+.tabelaHead ul li a,
+.footerTabela p {
+  color: #fff;
+}
+
+.footerTabelaDev {
+  background-color: #fff;
+}
+
+.tabelaTH,
+td {
+  text-align: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #f1f3f7;
+  border-right: 1px solid #f1f3f7;
+}
+
+.tabelaTH small {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a8a4a4
+}
+
+.tabelaTH h2 {
+  font-size: 36px;
+}
+
+.tabelaTH:nth-child(1) {
+  background-color: red;
+}
+
+
+.tabelaTH th:first-child {
+  visibility: hidden;
+}
+
+.marcador-azul::before {
+  content: " ";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #2f86d6;
+  border-radius: 100px;
+}
+
+.tabelaLimitada {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.BGDIF {
+  background-color: #f1f3f7;
+}
