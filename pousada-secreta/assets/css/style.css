@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fff;
+
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+.container {
+  max-width: 1024px;
+}
+
+/* Topo */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+
+.conteudo-header span {
+  color: blue;
+  /* ajustar a cor */
+}
+
+.conteudo-header a {
+  text-transform: uppercase;
+  color: #ccc;
+  /* ajustar a cor */
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+/* principal */
+
+.conteudo-main {
+  background: url("../img/img-fundo.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-main h2,
+.conteudo-main p {
+  color: #fff;
+  text-align: center;
+}
+
+.conteudo-dif {
+  font-size: 28px;
+  background-color: #0a9077b3;
+  padding: 0 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Quartos */
+
+.conteudo-quartos {
+  padding-top: 80px;
+  text-align: center;
+
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.galeria img {
+  width: 380px;
+
+}
+
+.galeria h3 {
+  text-align: center;
+  border-bottom: 2px solid #00836a;
+  padding-bottom: 15px;
+
+}
+
+.rota-conteudo {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.rota-conteudo h3,
+.sobre-pousada h3 {
+  text-transform: uppercase;
+}
+
+.sobre-pousada {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.sobre-pousada,
+.sobre-pousada .texto-dif {
+  text-align: center;
+}
+
+.sobre-pousada h5,
+.sobre-pousada p {
+  text-align: left;
+
+}
+
+.galeria-pousada {
+  /* display: flex;
+  justify-content: space-evenly;
+  align-items: stretch; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.galeria-pousada img {
+  width: 100px;
+  height: 113px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #49997d;
+  color: #fff;
+  padding: 40px;
+}
+
+.rodape-info {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+
+}
