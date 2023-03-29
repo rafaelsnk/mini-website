@@ -1,0 +1,242 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+.largura-limitada {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: #fff;
+}
+
+/* Topo */
+
+.bg-topo {
+  background-color: #00cad1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navegacao ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navegacao ul li a {
+  color: #fff;
+}
+
+/* Conteúdo Inicial */
+
+.bg-recepcao {
+  position: relative;
+  background-image: url("../img/recepcao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+}
+
+.conteudo-inicial {
+  display: flex;
+  align-items: center;
+
+}
+
+.conteudo-inicial h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 3px;
+  margin-left: 5px;
+}
+
+/* Conteúdo secundário */
+
+.conteudo-secundario h2,
+h3 {
+  text-align: center;
+  color: #ccc;
+
+}
+
+.conteudo-secundario p {
+  color: #ccc;
+
+}
+
+.conteudo-secundario-doctor {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.conteudo-secundario-doctor h3,
+ul li {
+  color: #ccc;
+
+}
+
+.conteudo-secundario-doctor ul li::before {
+  content: "";
+  list-style-type: circle;
+  border-radius: 4px;
+  width: 2px;
+  height: 4px;
+}
+
+.galeria {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+
+}
+
+.galeria img {
+  width: 250px;
+
+}
+
+.galeria p {
+  text-align: center;
+
+}
+
+.galeria div {
+  border: 2px solid #ddd;
+  box-shadow: #ccc 0 5px 10px;
+  border-radius: 4px;
+  margin-bottom: 60px;
+}
+
+.link {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.conteudo-secundario a {
+  color: #fff;
+  background-color: #00cad1;
+  padding: 15px 25px;
+  border-radius: 2px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.conteudo-secundario-centralizado {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: #0d6e71;
+  padding: 25px;
+
+}
+
+.logo-rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+/* CSS especialidades */
+
+.especialidade-conteudo {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.especialidade-conteudo a {
+  display: inline-block;
+  color: #ccc;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.especialidade-conteudo a::after {
+  content: "";
+  display: block;
+  width: auto;
+  height: 2px;
+  background-color: #00cad1;
+  margin: 0 0 1px 0;
+}
+
+.especialidade-conteudo h2,
+h3 {
+  color: #d5d5d5;
+  padding: 10px;
+}
+
+.especialidade-conteudo p {
+  color: #d5d5d5;
+
+}
+
+.container-tabela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+#img-tabela {
+  width: 350px;
+  display: block;
+}
+
+.especialidade-tabela {
+  width: 720px;
+  height: 230px;
+}
+
+.especialidade-tabela thead {
+  background-color: #00cad1;
+  color: #fff;
+
+}
+
+.especialidade-tabela tbody tr:nth-of-type(1),
+.especialidade-tabela tbody tr:nth-of-type(3) {
+  background-color: #cdcdcd;
+  border: 1px solid #f1f1f1;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
